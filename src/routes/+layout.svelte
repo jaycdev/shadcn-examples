@@ -1,5 +1,9 @@
 <script>
 	import '../app.pcss';
+	import { ModeWatcher } from 'mode-watcher';
 </script>
 
-<slot />
+<ModeWatcher />
+<div class="m-6">
+	<slot />
+</div>
